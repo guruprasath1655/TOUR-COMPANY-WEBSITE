@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matrix Tours & Travels</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../contact.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="logo">Matrix<span>.</span></a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="destinations.html">Destinations</a></li>
+    <li><a href="packages.html">Packages</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+  </ul>
+  <div style="display:flex;align-items:center;gap:12px;">
+    <a href="contact.html" class="nav-btn">Book a Trip</a>
+    <button class="nav-mobile-btn" onclick="document.getElementById('navLinks').classList.toggle('open')">☰</button>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="breadcrumb"><a href="index.html">Home</a> / Contact</div>
+  <h1 class="page-title">Get in Touch</h1>
+  <p class="page-sub">Our cultural specialists are here to help plan your perfect Tamil Nadu journey. We'll respond within 24 hours.</p>
+</div>
+
+<div class="contact-section">
+  <div class="contact-grid">
+
+    <!-- INFO SIDE -->
+    <div>
+      <div class="info-title">Contact Information</div>
+      <div class="info-intro">Have a question or ready to book? Reach us by phone, email, or just fill in the form — we'll get back to you quickly.</div>
+
+      <div class="info-cards">
+        <div class="info-card">
+          <div class="info-icon">📞</div>
+          <div>
+            <div class="info-label">Phone</div>
+            <div class="info-value">+91 44 1234 5678</div>
+            <div class="info-sub">Toll-free, Mon–Sat</div>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">✉️</div>
+          <div>
+            <div class="info-label">Email</div>
+            <div class="info-value">hello@tamilnadutours.com</div>
+            <div class="info-sub">We reply within 24 hours</div>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">📍</div>
+          <div>
+            <div class="info-label">Main Office</div>
+            <div class="info-value">Chennai, Tamil Nadu</div>
+            <div class="info-sub">600001 Tamil Nadu, India</div>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">🌏</div>
+          <div>
+            <div class="info-label">Regional Office</div>
+            <div class="info-value">Madurai, Tamil Nadu</div>
+            <div class="info-sub">For South India bookings</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hours-box">
+        <div class="hours-title">🕐 Office Hours</div>
+        <div class="hours-row"><span>Monday – Friday</span><span>9:00 AM – 6:00 PM CET</span></div>
+        <div class="hours-row"><span>Saturday</span><span>10:00 AM – 4:00 PM CET</span></div>
+        <div class="hours-row"><span>Sunday</span><span>Closed</span></div>
+      </div>
+    </div>
+
+    <!-- FORM SIDE -->
+    <div class="form-card">
+      <div class="form-title">Send an Enquiry</div>
+      <div class="form-subtitle">Fill in the details below and our team will prepare a personalised plan for you.</div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">First Name *</label>
+          <input type="text" class="form-control" id="firstName">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Last Name *</label>
+          <input type="text" class="form-control" id="lastName">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Email Address *</label>
+        <input type="email" class="form-control" id="email" placeholder="xyz@email.com">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Phone Number</label>
+        <input type="tel" class="form-control" placeholder="+1 234 567 8900">
+      </div>
+
+      <hr class="form-divider">
+
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Destination</label>
+          <select class="form-control">
+            <option value="">Select destination</option>
+            <option>Chennai - Tamil Nadu</option>
+            <option>Madurai - Tamil Nadu</option>
+            <option>Kanyakumari - Tamil Nadu</option>
+            <option>Ooty - Tamil Nadu</option>
+            <option>Kodaikanal - Tamil Nadu</option>
+            <option>Mahabalipuram - Tamil Nadu</option>
+            <option>Thanjavur - Tamil Nadu</option>
+            <option>Rameshwaram - Tamil Nadu</option>
+            <option>Not sure yet</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Package</label>
+          <select class="form-control">
+            <option value="">Select package</option>
+            <option>CLG TOUR — 7 Days</option>
+            <option>FAMILY TOUR — 14 Days</option>
+            <option>PREMIUM PRIVATE TOUR — 21 Days</option>
+            <option>Custom / Unsure</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Preferred Travel Date</label>
+          <input type="date" class="form-control">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Group Size</label>
+          <select class="form-control">
+            <option>Solo traveller</option>
+            <option>2 people</option>
+            <option>3-5 people</option>
+            <option>6-10 people</option>
+            <option>10+ people</option>
+            <option>Custom / Unsure</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Your Message</label>
+        <textarea class="form-control" placeholder="Tell us about your experience level, any special needs, dream route, or questions you have…"></textarea>
+      </div>
+
+      <button class="form-submit" id="submitBtn" onclick="handleSubmit()">Send Enquiry →</button>
+
+      <div class="success-msg" id="successMsg">
+        <span>✅</span>
+        <span>Your enquiry has been sent! We'll be in touch within 24 hours.</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<footer>
+  <div class="footer-logo">Tamil Nadu<span>.</span></div>
+  <p class="footer-copy">© 2025 Tamil Nadu Cultural Tours. All rights reserved.</p>
+  <ul class="footer-links">
+    <li><a href="#">Privacy</a></li>
+    <li><a href="#">Terms</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</footer>
+
+<script>
+  function handleSubmit() {
+    const btn = document.getElementById('submitBtn');
+    const msg = document.getElementById('successMsg');
+    btn.textContent = 'Sending…';
+    btn.disabled = true;
+    setTimeout(() => {
+      btn.style.display = 'none';
+      msg.classList.add('show');
+    }, 1000);
+  }
+
+  function toggleFaq(el) {
+    const item = el.parentElement;
+    item.classList.toggle('open');
+  }
+
+  document.querySelector('.nav-mobile-btn').addEventListener('click', () =>
+    document.getElementById('navLinks').classList.toggle('open'));
+</script>
+</body>
+</html>
